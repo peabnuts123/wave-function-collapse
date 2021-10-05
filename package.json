@@ -1,0 +1,25 @@
+{
+  "name": "wavefunction-collapse-testfield",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --max-warnings 0 --no-error-on-unmatched-pattern \"./*.{js,ts}\" \"src/**/*.{js,ts}\" \"test/**/*.{js,ts}\"",
+    "start": "ts-node  -r tsconfig-paths/register src/index.ts",
+    "start:watch": "nodemon --watch src --ext ts,js --exec 'npm start'"
+  },
+  "keywords": [],
+  "author": "peabnuts123",
+  "private": "true",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.32.0",
+    "chalk": "^4.1.2",
+    "eslint": "^7.32.0",
+    "nodemon": "^2.0.13",
+    "ts-node": "^10.2.1",
+    "tsconfig-paths": "^3.11.0",
+    "typescript": "^4.4.3"
+  }
+}
